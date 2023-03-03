@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import About from "../../pages/about/About";
+import Home from "../../pages/home/Home";
 import "./navbar.css";
 
 export default function Navbar() {
@@ -19,7 +21,7 @@ export default function Navbar() {
             </Link>
           </li>    
           <li className="topListItem">
-            <Link className="link" to="/about">
+            <Link href="./about">
               ABOUT
             </Link>
           </li>

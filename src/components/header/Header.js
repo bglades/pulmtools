@@ -11,9 +11,9 @@ export default function Header() {
         <img className='headerImg' 
         src='/header.jpg'
         alt=" " />
-        <div className='cards'>
-        <BasicCard />
-        </div>
+    <div className='cards'>
+    <BasicCard />
+    </div>
     </div>
 
   )

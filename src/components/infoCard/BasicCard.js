@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { flexbox } from '@mui/system';
 import { CardActionArea } from '@mui/material';
 import MyDay from '../../pages/myDay/MyDay';
-
+import { Link } from "react-router-dom";
 
 
 
@@ -54,7 +54,7 @@ export default function BasicCard() {
     </div>
     <div className='card-three'>
     <Card sx={{ minWidth: 275 }}>
-    <CardActionArea href='./MyDay'>
+    <CardActionArea href='./rounds'>
       <CardContent>
         <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
           Round Keeper
@@ -63,6 +63,7 @@ export default function BasicCard() {
           Stay organized for medical rounds
         </Typography>
       </CardContent>
+
       </CardActionArea>
     </Card>
     </div>
