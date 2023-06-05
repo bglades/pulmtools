@@ -7,6 +7,7 @@ import Home from "./pages/home/Home";
 import MyDay from "./pages/myDay/MyDay";
 import Resources from "./pages/resources/Resources";
 import Rounds from "./pages/rounds/Rounds";
+import TodoList from "./pages/todo/TodoList";
 
 function App() {
 return(
@@ -17,8 +18,8 @@ return(
     <Route exact path='/'>
       <Home />
     </Route>
-    <Route path='/myDay'>
-      <MyDay />
+    <Route path='/TodoList'>
+      <TodoList />
     </Route>
     <Route path='/calculator'>
       <Calculator />

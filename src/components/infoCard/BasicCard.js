@@ -13,6 +13,11 @@ import { Link } from "react-router-dom";
 
 
 export default function BasicCard() {
+
+const volumeCalc = (num) => {
+  
+}
+
   return (
     <>
     <Box sx={{
@@ -26,13 +31,13 @@ export default function BasicCard() {
     >
     <div className='card-one'>
     <Card sx={{ minWidth: 275 }}>
-     <CardActionArea href='./MyDay'>
+     <CardActionArea href='./TodoList'>
       <CardContent>
         <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
-          My Day
+          Todo List
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          Shift notes, reminders, and todo list
+          Figure out what you need to do.
         </Typography>
       </CardContent>
       </CardActionArea>
@@ -40,7 +45,7 @@ export default function BasicCard() {
     </div>
     <div className='card-two'>
     <Card sx={{ minWidth: 275 }}>
-    <CardActionArea href='./MyDay'>
+    <CardActionArea href='./calculator'>
       <CardContent>
         <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
           Calculators and Charts
@@ -54,22 +59,22 @@ export default function BasicCard() {
     </div>
     <div className='card-three'>
     <Card sx={{ minWidth: 275 }}>
-    <CardActionArea href='./rounds'>
+   
       <CardContent>
         <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
           Round Keeper
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          Stay organized for medical rounds
+          
         </Typography>
       </CardContent>
 
-      </CardActionArea>
+     
     </Card>
     </div>
     <div className='card-four'>
     <Card sx={{ minWidth: 275 }}>
-    <CardActionArea href='./MyDay'>
+    <CardActionArea href='./resources'>
       <CardContent>
         <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
           Resources

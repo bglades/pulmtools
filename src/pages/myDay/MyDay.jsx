@@ -1,10 +1,11 @@
 import React from 'react'
-import Todo from '../../components/todo/Todo'
 
+//incorporate finance tracker list but here
 export default function MyDay() {
   return (
     <div>
-        <Todo />
+        Today's Outlook
+        
     </div>
   )
 }
