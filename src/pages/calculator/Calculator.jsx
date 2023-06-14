@@ -1,7 +1,10 @@
 import React from 'react'
+import TidalVolume from './TidalVolume'
 
 export default function Calculator() {
   return (
-    <div>Calculator</div>
+    <div>Calculator
+    <TidalVolume />
+    </div>
   )
 }
